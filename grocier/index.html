@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Grocier</title>
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+  <body>
+    <!-- bagian navigasi-->
+
+    <header>
+        <div class="slideshow">
+          <div class="Slides">
+            <img src="assets/gambar1.jpg" />
+          </div>
+
+          <div class="Slides">
+            <img src="assets/gambar2.jpg" />
+          </div>
+
+          <div class="Slides">
+            <img src="assets/gambar3.jpg" />
+          </div>
+        </div>
+        <br />
+      </section>
+      <section id="headernav">
+        <a id="revou" href="https://revou.co/"><img src="assets/revouimg.png" /></a>
+        <nav id="navigation">
+          <div>
+            <a href=""><img src="assets/search.svg" /></a>
+          </div>
+          <div>
+            <a href="#title"><img src="assets/home.svg" /></a>
+          </div>
+          <div>
+            <a href="#shopping"><img src="assets/shopping-cart.svg" /></a>
+          </div>
+          <div>
+            <a href="#socialtitle"><img src="assets/phone.svg" /></a>
+          </div>
+        </nav>
+      </section>
+
+      <!-- bagian Judul-->
+
+      <section id="title">
+        <h2>Top Grocier in indonesia</h2>
+        <p3 id="subtitle">Fresh, healty and cheap</p3>
+        <hr />
+      </section>
+    </header>
+
+    <!--Konten home-->
+
+    <main>
+      <section id="gambar">
+        <article id="article">
+          <img src="assets/toko.jpg" /><br />
+          <div id="imagetitle">
+            <p3>
+              "beli sayur dan buah disini, harganya terjangkau dan juga
+              fresh"</p3
+            >
+            <hr />
+          </div>
+          <div id="contack">
+            <img src="assets/user.svg" />
+            <div id="coment">
+              <p3>Florence Hughes</p3>
+              <p4><i>ibu rumah tangga, 28 tahun</i></p4
+              ><br />
+            </div>
+          </div>
+
+          <!-- Bagian Form -->
+        </article>
+        <section id="form">
+          <div id="formjudul">
+            <h3>Layanan kami akan menghubungi anda</h3>
+            <p4>anda akan dihubungi 2x24 jam</p4><br />
+            <div id="formisi">
+              <form name="myform" onsubmit="return validateform()">
+                <label for="name" class="input"><h3>your name</h3></label>
+                <input
+                  name="name"
+                  id="name"
+                  type="text"
+                  class="input"
+                  placeholder="name"
+                />
+
+                <label for="email" class="input"><h3>Email Adress</h3></label>
+
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="example@gmail.com"
+                  class="input"
+                  name="email"
+                />
+
+                <label for="order"><h3>Order</h3></label>
+
+                <select id="order" name="order" class="input" name="option">
+                  <option name="order" value="" disabled selected>
+                    select option
+                  </option>
+                  <option name="order" value="vegetable">sayuran</option>
+                  <option name="order" value="fruit">buah-buahan</option>
+                  <option name="order" value="frozen">frozen food</option>
+                  <option name="order" value="meat">daging mentah</option>
+                </select>
+                <hr />
+                <button id="submit" class="input" vslue="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!--Bagian Produk-->
+      <article class="produk">
+        <h3>
+          Beragam kebutuhan pokok kami sajikan disini, anda juga bisa memesan
+          secara online. <br />Harga terjangkau dan juga sudah terjamin
+          kebersihannya. ini beberapa kelebihan Toko kami
+        </h3>
+      </article>
+      <hr />
+
+      <div class="container" id="one">
+        <h3 class="number">1</h3>
+        <div>
+          <p id="benefit">
+            Produk yang kami sajikan selalu fresh hingga ke tangan konsumen
+          </p>
+        </div>
+      </div>
+      <br />
+
+      <div class="container" id="two">
+        <h3 class="number">2</h3>
+        <div>
+          <p id="benefit">
+            dapat diskon hingga 50% apabila membeli dalam jumlah banyak
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="container" id="three">
+        <h3 class="number">3</h3>
+        <div>
+          <p id="benefit">
+            dapat dibeli melalui online shop maupun langsung datang ke toko kami
+          </p>
+        </div>
+      </div>
+      <hr />
+      <section>
+        <div class="shoptitle">
+          <h3>Our Packages</h3>
+        </div>
+
+        <div class="shopping">
+          <img src="assets/one.png">
+          <div class="shoptext">
+            <h3>Paket Diet</h3>
+          <p3>menyediakan kebutuhan bagi anda yang ingin diet, harga mulai dari 15rb
+          </p3>
+          </div>
+        </div>
+       
+        <div class="shopping">
+          <img src="assets/number 2.png">
+          <div class="shoptext">
+            <h3>Paket steak</h3>
+          <p3>menyediakan kebutuhan bagi anda yang ingin memasak steak sendiri, harga mulai dari 30rb
+          </p3>
+          </div>
+        </div>
+
+        <div class="shopping">
+          <img src="assets/number 3.png">
+          <div class="shoptext">
+            <h3>Paket Buah</h3>
+          <p3>menyediakan kebutuhan bagi anda yang ingin mengkonsumsi buah-buahan, harga mulai dari 10rb 
+          </p3>
+          </div>
+        </div>
+<hr>
+      </section>
+    </main>
+    <footer>
+      <h3 id="socialtitle">Our Social media</h3>
+      <div class="social">
+        <a href="https://www.youtube.com/@revoudotco"
+          ><img src="assets/youtube.svg"
+        /></a>
+        <a href=""><img src="assets/instagram.svg" /></a>
+        <a href=""><img src="assets/mail.svg" /></a>
+        <a href=""><img src="assets/message-square.svg" /></a>
+      </div>
+    </footer>
+  </body>
+  <script src="js/javascript.js"></script>
+</html>

@@ -1,0 +1,183 @@
+/*bagian navigasi*/
+
+#headernav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  #headernav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: yellow;
+    align-items: center;
+  }
+}
+#navigation {
+  display: flex;
+}
+#navigation > div {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: orange;
+}
+#navigation img {
+  margin-top: 10px;
+}
+body {
+  background-color: limegreen;
+}
+.slideshow img {
+  width: 25%;
+  height: 25%;
+}
+/*bagian judul*/
+
+#title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*bagian home*/
+
+#gambar {
+  display: flex;
+  flex-basis: 40%;
+  flex-grow: 0;
+  gap: 20px;
+}
+#article {
+  display: flex;
+  flex-basis: 60%;
+  margin-left: 32px;
+  flex-direction: column;
+}
+#gambar img {
+  max-width: 100%;
+  max-height: 80%;
+  border-radius: 8px;
+}
+#coment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+#imagetitle {
+  display: flex;
+  margin-left: 100px;
+}
+#contack {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 40px;
+}
+#contack img {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 50%;
+  background-color: grey;
+  margin-top: 25px;
+}
+
+/*bagian form*/
+
+#form {
+  display: flex;
+  flex-basis: 40%;
+  background-color: gainsboro;
+  flex-grow: 0;
+  margin-right: 32px;
+  border-radius: 8px;
+  max-height: 80%;
+}
+#formjudul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+#formisi {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+}
+#formisi > select {
+  width: 400px;
+  height: 40px;
+}
+
+#submit {
+  width: 300px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  margin-left: 40px;
+}
+
+/*bagian produk*/
+
+.produk {
+  display: flex;
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-left: 30px;
+  text-align: justify;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  column-gap: 10px;
+}
+#benefit {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  width: 600px;
+}
+
+/*bagian produk*/
+.shoptitle {
+  text-align: center;
+}
+.shopping img {
+  width: 5%;
+  height: 5%;
+}
+.shoptext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.shopping {
+  display: flex;
+  flex-direction: row;
+}
+/*bagian footer*/
+#socialtitle {
+  text-align: center;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
